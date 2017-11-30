@@ -6,7 +6,7 @@ Here is the criteria:
 =end
 
 def hate_steve(name)
-  puts name.downcase.chr == 's' ? name.upcase : 'Hi ' + name
+  puts name.downcase.chr == 's' ? name.upcase : 'Hi ' + name.capitalize
 end
 
 def get_name
